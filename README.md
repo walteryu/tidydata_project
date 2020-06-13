@@ -21,24 +21,24 @@ The assignment instructions are listed below for reference, and the code is stru
 The code is structured in the steps below to clean the dataset as follows:
 
 Step 1: Import Data
-a. Import text data files with read.table()
-b. Review dataset readme to identify how to merge data
-c. Label subject and activity columns before merging datasets
-d. Combine train/test data into single dataset with cbind()
+* a. Import text data files with read.table()
+* b. Review dataset readme to identify how to merge data
+* c. Label subject and activity columns before merging datasets
+* d. Combine train/test data into single dataset with cbind()
 
 Step 2: Extract Mean/Std Measurements
-a. Filter measurements with grep function
-b. Subset dataframe with column index based on filter results
+* a. Filter measurements with grep function
+* b. Subset dataframe with column index based on filter results
 
 Step 3: Label Activity Columns
-Replace activity labels by filtering on numeric value
+* Replace activity labels by filtering on numeric value
 
 Step 4: Replace Activity Labels
-Labels replaced with numeric index value, then mapped in code book file
+* Labels replaced with numeric index value, then mapped in code book file
 
 Step 5: Aggregate Measurements
-a. Aggregate by subject and activity, then apply mean() function
-b. Output table to text file
+* a. Aggregate by subject and activity, then apply mean() function
+* b. Output table to text file
 
 ### Conclusion
 
