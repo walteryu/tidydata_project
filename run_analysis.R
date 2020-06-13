@@ -84,6 +84,8 @@ match_std <- df_features$id[grep("std", df_features$value)]
 match_mean
 match_mean_cap
 match_std
+# df_match <- data.frame(rbind(match_mean, match_mean_cap, match_std))
+# write.csv(df_match, 'grep_matches.csv')
 
 # step 2B: subset by column index based on step 2A results
 # source: https://stackoverflow.com/questions/45846341/how-to-subset-a-data-frame-column-wise-using-column-names
